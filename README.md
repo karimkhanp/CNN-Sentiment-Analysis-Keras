@@ -4,7 +4,10 @@ Train convolutional network for sentiment analysis. Based on "Convolutional Neur
 
 We experimented this implementation for comparative study of sentiment analysis on Keras for Teano, Tesorflow, CNTK. 
 
-CNN-non-static loss and accuracy: In theano val_loss and val_acc in 1st epoch is 0.6931 and 0.5126 respectively. While in 10 epoch it is 0.3801 and 0.8708. In Tensorflow val_loss and val_acc in 1st epoch is 0.6932 and 0.5000 respectively. While in 10 epoch it is 0.3434 and 0.8690.  In CNTK val_loss and val_acc in 1st epoch is 0.3691 and 0.5000 respectively. While in 10 epoch it is 0.2695 and 0.8690. 
+CNN-non-static loss and accuracy: 
+* In theano val_loss and val_acc in 1st epoch is 0.6931 and 0.5126 respectively. While in 10 epoch it is 0.3801 and 0.8708. 
+* In Tensorflow val_loss and val_acc in 1st epoch is 0.6932 and 0.5000 respectively. While in 10 epoch it is 0.3434 and 0.8690.  
+* In CNTK val_loss and val_acc in 1st epoch is 0.3691 and 0.5000 respectively. While in 10 epoch it is 0.2695 and 0.8690. 
 
 
 ## Some difference from original article:
